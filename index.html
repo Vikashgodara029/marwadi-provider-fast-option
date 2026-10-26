@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Marwadi Provider FastOption - a casual virtual-coin game demo.">
+  <title>Marwadi Provider FastOption</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="Marwadi Provider FastOption home">
+      <span class="brand-mark">MP</span>
+      <span>Marwadi Provider <strong>FastOption</strong></span>
+    </a>
+    <span class="demo-pill">DEMO · VIRTUAL COINS ONLY</span>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">WELCOME TO</p>
+        <h1>Marwadi Provider <span>FastOption</span></h1>
+        <p class="lead">A simple entertainment-game demo. Play with virtual coins only—no deposits, cash prizes, or withdrawals.</p>
+        <a class="primary-btn" href="#play">Try the demo</a>
+      </div>
+      <div class="hero-card" aria-label="Virtual coin balance">
+        <div class="coin">★</div>
+        <p class="muted">YOUR DEMO BALANCE</p>
+        <p class="balance"><span id="balance">1000</span> <small>virtual coins</small></p>
+        <p class="muted tiny">Coins have no cash value.</p>
+      </div>
+    </section>
+
+    <section id="play" class="game-section">
+      <div class="section-heading">
+        <p class="eyebrow">MINI GAME</p>
+        <h2>Lucky Spin</h2>
+        <p>Spin for fun. Each play uses 10 virtual coins.</p>
+      </div>
+      <div class="game-card">
+        <div class="wheel-wrap"><div id="wheel" class="wheel"><span>★</span></div></div>
+        <p id="game-message" class="game-message" aria-live="polite">Ready when you are.</p>
+        <button id="spin-button" class="primary-btn" type="button">Spin · 10 coins</button>
+        <button id="reset-button" class="text-btn" type="button">Reset demo balance</button>
+      </div>
+    </section>
+
+    <section class="info-grid">
+      <article class="info-card">
+        <h3>Virtual play only</h3>
+        <p>This demo has no real-money betting, deposits, withdrawals, or cash prizes.</p>
+      </article>
+      <article class="info-card">
+        <h3>Owner controls</h3>
+        <p>A secure owner login and admin database are not included in this static demo yet. They need a proper server-side setup.</p>
+      </article>
+      <article class="info-card">
+        <h3>Ready for hosting</h3>
+        <p>These files can be published on a static hosting service such as Cloudflare Pages or GitHub Pages.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer>
+    <span>© <span id="year"></span> Marwadi Provider FastOption</span>
+    <span>Entertainment demo · Virtual coins only</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
